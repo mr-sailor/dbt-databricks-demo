@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "dbt-databricks-demo"
+version = "0.1.0"
+description = ""
+authors = ["Filip CNC <filip@cloudnativeconsulting.nl>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+dbt-databricks = "^1.8.5"
+dbt-core = "^1.8.5"
+pyspark = "^3.5.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

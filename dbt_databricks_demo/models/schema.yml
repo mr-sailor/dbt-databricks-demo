@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: dim_listings_cleansed
+    description: my description - testing for dim_listings_cleansed
+    columns:
+
+    - name: listing_id
+      description: primary key for dim_listings table
+      tests:
+        - unique
+        - not_null
+    
+
+    - name: minimum_nights
+      description: minimum number of nights for dim_listings table
+      tests:
+        - positive_value
+
+
+
+    
